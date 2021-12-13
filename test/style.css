@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 *{
     box-sizing: border-box;
 }
@@ -68,5 +66,34 @@ body::before{
 .right-arrow{
     right: calc(15vw - 70px);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 2px solid  */
