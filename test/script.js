@@ -17,6 +17,8 @@ rightBtn.addEventListener("click", () => {
   if (activeSlide >= slides.length - 1) {
     document.getElementsByClassName("arrow right-arrow")[0].style.display =
       "none";
+      setBgToBody();
+      setActiveSlide();
     }
     else {
       document.getElementsByClassName("arrow left-arrow")[0].style.display = "";
@@ -28,8 +30,6 @@ rightBtn.addEventListener("click", () => {
 leftBtn.addEventListener("click", () => {
    console.log("T : ",activeSlide);
    activeSlide--;
-  
-
   if (activeSlide > 0) {
     // activeSlide = slides.length - 1;
      document.getElementsByClassName("arrow right-arrow")[0].style.display = "";
