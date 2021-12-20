@@ -1,0 +1,42 @@
+  html {
+    box-sizing: border-box;
+    background-color: lightblue;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  .login{  
+    width: 315px;  
+    overflow: hidden;
+    margin: auto;  
+    padding: 2rem;
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background-color: white;  
+    border-radius: 50px ;  
+    border-top: 5px solid steelblue;
+} 
+.button{
+    background-color: rgb(229, 240, 240);   
+}
+.showDataStyle{
+    width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+    border: 2px solid forestgreen;
+    width: 530px;
+    height: 180px;
+  }
+td {
+    text-align: center;
+  }
