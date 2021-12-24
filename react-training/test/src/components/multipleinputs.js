@@ -7,7 +7,7 @@ const temp = {
   phone: "",
   // password:""
 };
-
+//  localStorage = Event =>{};
 const Multipleinputs = () => {
   const [userRegistration, setUserRegistration] = useState(temp);
   const [records, setRecords] = useState([]);
